@@ -8,7 +8,7 @@ execute:
 bibliography: references.bib
 ---
 
-```{r load-packages, echo = F, message = F}
+```{r load-packages, echo = F, message = F, force = T}
 remotes::install_github("gadenbuie/tiktokrmd")
 library(tiktokrmd)
 ```
@@ -17,11 +17,17 @@ library(tiktokrmd)
 
 ![credit](https://www.adobe.com/express/feature/image/media_16ad2258cac6171d66942b13b8cd4839f0b6be6f3.png?width=750&format=png&optimize=medium)
 
-Alexia Crisologo is a freshmen at Duke University, pursing a degree in statistics on a pre med track. Her work explores the trends of food on TikTok through their histories and futures.
+*Alexia Crisologo is a freshmen at Duke University, pursing a degree in statistics on a pre med track. Her work explores the trends of food on TikTok through their histories and futures.*
 
-Starting off, [girl dinner](https://www.tiktok.com/tag/girldinner),[@girl_dinner] a trend started by [Olivia Maher](https://www.tiktok.com/@liviemaher/video/7232130214506057003), has evolved into many [different paths](https://www.vox.com/culture/23831903/girl-dinner-tiktok-trends-hot-girl-walk). Originally, she posted what she was eating for dinner, cheese, grapes and bread to indulge in her "medieval" cravings. The trend started to pick up speed and was seen as a way to promote positivity about feeding [indulgences](https://www.aol.com/tried-21-energy-drink-brands-211400312.html) as well as to support other girls in their eating habits. A notable adaptation was the interchangeability of girl dinner and sweet treats. Sweet treats were seen as a post dinner snack such as a Starbucks drink or even a piece of chocolate. The evolution of this trend makes it hard to designate an exact timeframe in which it was trending for, but for the moment it has been around for nearly a year. While some think the trend is dead or cheugy, in my opinion, this trend is still circulating and I see no end in sight because of the immense adaptations it has take on. For example trends such as the famous chocolate covered strawberries, the comments are flooding with hashtags mentioning girl dinner.
+Starting off, [girl dinner](https://www.tiktok.com/tag/girldinner),[@girl_dinner] a trend started by [Olivia Maher](https://www.tiktok.com/@liviemaher/video/7232130214506057003),[@Jennings] has evolved into many [different paths](https://www.vox.com/culture/23831903/girl-dinner-tiktok-trends-hot-girl-walk). Originally, she posted what she was eating for dinner, cheese, grapes and bread to indulge in her "medieval" cravings. The trend started to pick up speed and was seen as a way to promote positivity about feeding [indulgences](https://www.aol.com/tried-21-energy-drink-brands-211400312.html) [@Martin]as well as to support other girls in their eating habits. A notable adaptation was the interchangeability of girl dinner and sweet treats. [Sweet treats](https://www.tiktok.com/discover/sweet-treats?lang=en) [@sweet_treat]were seen as a post dinner snack such as a Starbucks drink or even a piece of chocolate. The evolution of this trend makes it hard to designate an exact timeframe in which it was trending for, but for the moment it has been around for nearly a year. While some think the trend is dead or cheugy [@Jennings], in my opinion, this trend is still circulating as seen in the tik tok published March 3, 2024 by @ alllthingsfood,
 
-```{r}
+```{r tiktok2}
+tiktok_embed("https://www.tiktok.com/@alllthingsfood/video/7341787163912113440?_r=1&_t=8l5w9pOgKFe")
+```
+
+and I see no end in sight because of the immense adaptations it has take on. For example trends such as the famous chocolate covered strawberries, the comments are flooding with hashtags mentioning girl dinner.
+
+```{r tiktok-2}
 tiktok_embed("https://www.tiktok.com/@s4r4h43/video/7335572867855306016?_r=1&_t=8l5pZ0NWRnn")
 ```
 
